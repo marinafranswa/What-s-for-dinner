@@ -636,7 +636,7 @@ function showRecipe() {
         >
           <div class="col-12 col-lg-5">
             <div
-              class="main-images rounded-start-5 position-relative w-100  overflow-hidden"
+              class="main-images  position-relative w-100  overflow-hidden"
             >
               <img
                 src="${recipe.img}"
@@ -693,14 +693,14 @@ function showRecipe() {
               <span class="pill-blue rounded-5 py-1 px-3 fw-semibold ms-2"
                 >${recipe.kitchen}</span
               >
-              <div class="d-flex flex-column flex-lg-row align-items-center">
+              <div class="d-flex flex-column flex-lg-row align-items-lg-center">
                 <div class="col-10">
                   <h2 class="fw-bold mt-3">${recipe.title}</h2>
                   <p class="text-secondary">
                     ${recipe.subTitle}
                   </p>
                 </div>
-                <div class="col-2">
+                <div class="col-2 ms-2 my-2 my-lg-0 ms-lg-0">
                   <div
                     class="d-flex align-items-center justify-content-center justify-content-lg-around gap-1"
                   >
@@ -771,8 +771,8 @@ function showRecipe() {
                      ${instructionsList}
                     </ul>
                   </div>
-                  <div class="tab-pane list-bg-2 overflow-y-scroll fade" id="nutrition">
-                    <div class="row g-3 mb-3">
+                  <div class="tab-pane  fade" id="nutrition">
+                    <div class="list-bg-2 overflow-y-scroll"><div class="row g-2 mb-3">
                       <div class="col-md-6">
                         <div
                           class="nutri-box d-flex align-items-center justify-content-between p-3 rounded-4"
@@ -807,7 +807,7 @@ function showRecipe() {
                         </div>
                       </div>
                     </div>
-                    <div class="row g-3 mb-3">
+                    <div class="row g-2 mb-3">
                       <div class="col-md-6">
                         <div
                           class="nutri-box d-flex align-items-center justify-content-between p-3 rounded-4"
@@ -841,7 +841,7 @@ function showRecipe() {
                         </div>
                       </div>
                     </div>
-                    <div class="row g-3">
+                    <div class="row g-2">
                       <div class="col-md-6">
                         <div
                           class="nutri-box d-flex align-items-center justify-content-between p-3 rounded-4"
@@ -872,7 +872,7 @@ function showRecipe() {
                           <h5 class="fw-bold mb-0">${recipe.nutrition.sodium}</h5>
                         </div>
                       </div>
-                    </div>
+                    </div></div>
                   </div>
                   <div class="tab-pane list-bg-2 fade" id="tips">
                    ${chefTipsList}          
