@@ -771,7 +771,7 @@ function showRecipe() {
                      ${instructionsList}
                     </ul>
                   </div>
-                  <div class="tab-pane list-bg-2 fade" id="nutrition">
+                  <div class="tab-pane list-bg-2 overflow-y-scroll fade" id="nutrition">
                     <div class="row g-3 mb-3">
                       <div class="col-md-6">
                         <div
@@ -885,9 +885,7 @@ function showRecipe() {
               </button>
             </div>
           </div>
-        </div>
- 
-  `;
+        </div>`;
 
   document.getElementById("cardContainer").innerHTML = cartona;
 }
