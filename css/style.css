@@ -1,0 +1,135 @@
+body {
+  background-color: #fff7e8;
+}
+.small-text {
+  font-size: 12px;
+}
+.card {
+  height: 650px;
+  scrollbar-color: #fe886a4d transparent;
+  scrollbar-width: thin;
+}
+.card .bill {
+  top: 24px;
+  left: 24px;
+}
+.card .info-box {
+  right: 24px;
+  bottom: 24px;
+  left: 24px;
+}
+.card .pill-green {
+  background: #dcfce7;
+  color: #008236;
+}
+.card .pill-blue {
+  background: #dbeafe;
+  color: #1447e6;
+}
+.card .orange-btn {
+  color: #f54a00;
+  background-color: #ffedd4;
+  width: 48px;
+  height: 48px;
+}
+.card .orange-btn:hover {
+  background-color: #ffd7a8;
+}
+.nav {
+  --bs-nav-link-color: #6a7282;
+  --bs-nav-link-hover-color: #364153;
+  --bs-nav-underline-link-active-color: #ff6900;
+}
+.card .tab-pane .list-bg {
+  background-image: linear-gradient(to bottom right, #fff7ed, #fffbeb);
+  height: 350px;
+  scrollbar-color: #fe886a4d transparent;
+  scrollbar-width: thin;
+}
+.card .list-bg-2 {
+  height: 350px;
+  scrollbar-color: #fe886a4d transparent;
+  scrollbar-width: thin;
+}
+.number {
+  background-color: #ff6900;
+  width: 28px;
+  height: 28px;
+}
+.nutri-box {
+  background-color: #f8fafc;
+  border: 1px solid #f1f5f9;
+}
+.icon-wrap {
+  height: 40px;
+  width: 40px;
+}
+.orange-div {
+  background-color: #ffedd4;
+  color: #f54a00;
+}
+.yellow-div {
+  background-color: #fef9c2;
+  color: #d08700;
+}
+.green-div {
+  background-color: #dcfce7;
+  color: #00a63e;
+}
+.blue-div {
+  background-color: #dbeafe;
+  color: #155dfc;
+}
+.red-div {
+  background-color: #ffe2e2;
+  color: #e7000b;
+}
+.pink-div {
+  background-color: #fce7f3;
+  color: #e60076;
+}
+.tip-box {
+  background-color: #fffbeb;
+  border-left: 6px solid #ffb900;
+}
+
+.tip-icon {
+  width: 20px;
+  height: 20px;
+  background-color: #e17100;
+}
+.change-btn {
+  background-image: linear-gradient(to right, #ff6900, #fb2c36);
+  transition: all 0.3s;
+}
+.change-btn:hover {
+  background-image: linear-gradient(to right, #f54a00, #e7000b);
+  transform: scale(1.03);
+}
+.line {
+  height: 1px;
+  background: #f1f5f9;
+}
+.icon {
+  background-color: #f54a00;
+  width: 50px;
+  height: 50px;
+}
+.right .small-btn {
+  color: #4a5565;
+  transition: all 0.3s;
+}
+.right .small-btn:hover {
+  color: #f54a00;
+}
+.icon-wrap img {
+  border: 1px solid #f54a00;
+}
+.red-box {
+  border-left: 6px solid #fb2c36;
+  color: #fb2c36;
+  background-color: #fef2f2;
+}
+.red-box .title-box {
+  color: #9f0712;
+}
