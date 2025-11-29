@@ -1,6 +1,14 @@
 body {
   background-color: #fff7e8;
 }
+.navbar-toggler{
+  border: none;
+}
+.navbar-toggler:focus {
+outline: none;
+box-shadow: none;
+border: none;
+}
 .small-text {
   font-size: 12px;
 }
@@ -8,6 +16,11 @@ body {
   height: 650px;
   scrollbar-color: #fe886a4d transparent;
   scrollbar-width: thin;
+}
+.card .main-images{
+  height: 400px;
+  border-top-right-radius: 20px ;
+  border-bottom-left-radius:0px ;
 }
 .card .bill {
   top: 24px;

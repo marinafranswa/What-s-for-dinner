@@ -1,0 +1,7 @@
+@media screen and (min-width: 900px) {
+  .card .main-images {
+    height: 100%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0px;
+  }
+}

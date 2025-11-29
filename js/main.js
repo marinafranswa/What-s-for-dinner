@@ -636,7 +636,7 @@ function showRecipe() {
         >
           <div class="col-12 col-lg-5">
             <div
-              class="rounded-start-5 position-relative w-100 h-100 overflow-hidden"
+              class="main-images rounded-start-5 position-relative w-100  overflow-hidden"
             >
               <img
                 src="${recipe.img}"
@@ -693,7 +693,7 @@ function showRecipe() {
               <span class="pill-blue rounded-5 py-1 px-3 fw-semibold ms-2"
                 >${recipe.kitchen}</span
               >
-              <div class="d-flex flex-row align-items-center">
+              <div class="d-flex flex-column flex-lg-row align-items-center">
                 <div class="col-10">
                   <h2 class="fw-bold mt-3">${recipe.title}</h2>
                   <p class="text-secondary">
@@ -702,7 +702,7 @@ function showRecipe() {
                 </div>
                 <div class="col-2">
                   <div
-                    class="d-flex align-items-center justify-content-around gap-1"
+                    class="d-flex align-items-center justify-content-center justify-content-lg-around gap-1"
                   >
                     <button class="btn orange-btn rounded-3">
                       <i class="fa-solid fa-bookmark"></i>
